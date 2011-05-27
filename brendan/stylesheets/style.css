@@ -1,80 +1,74 @@
-html, body {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-}
+@charset "UTF-8";
+/* CSS Document */
+/* color pallette
+    black -> #000000;
+	white -> #ffffff;
+	links, red -> #EA1527;
+	
+*/
 
 body {
-    font: 100.01% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
-    color: #333;
-    padding: 0;
-}
+    font-family: Franklin Gothic medium, sans-serif;
+    background: #ffffff;
+    width:100%;
+    }
 
-body * {
-    line-height:1.22em;
-}
-
-
-p {
-    margin: 10px 0;
-    clear: both;
-}
-
-ul, ol {
-    margin-left 0;
-}
-
-ul ul {
-    margin-bottom: 20px;
-}
-
-#wrap {
-    color: #404040;
-    /*margin: 0 12%;*/
-    margin: 20px 40px;
+h1 {
+    padding-top:.25em;
+    text-align:center;
+    font-size:2em;
+    font-weight:bold;
 }
 
 a {
-    color: #4088b8;
+    text-decoration:none;
+    text-transform:capitalize;
+    color:#EA1527;
 }
 
-table {
-    font-size: inherit;
-    border: 1px solid #c8c8c8;
+/* THESE ARE IN THE HEADER */
+#row1 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #000;
+}
+#row2 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #000;
+}
+#row3 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #000;
 }
 
-th {
-    background: #d8d8d8;
-    text-align: left;
-    padding: 5px;
-    white-space: nowrap;
+/* MIDDLE SECTION/BODY */
+#carousel {
+    padding:50px 0 50px 20px;
+    width:15%;
+    float:left;
+    height:300px;
+    border-bottom:.3em solid #000;
 }
 
-td {
-    background: #f8f8f8;
-    text-align: left;
-    padding: 5px;
-    vertical-align: top;
+#content {
+    width:82%;
+    float:left;
+    height:400px; /* CAROUSEL HEIGHT + PADDING */
+    border-bottom:.3em solid #000;
 }
 
-select, input, textarea {
-    font: 99% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
-}
-
-pre, code, tt, dt {
-    font: 100% monospace;
-    margin: 20px 0;
-}
-
-pre, blockquote {
-    padding: 15px;
-    background-color: #f0f0f0;
-    margin: 20px 0;
-    -moz-border-radius: 10px;
-}
-
-td pre {
-    font: 85% monospace;
-    padding: 5px;
-    margin: 5px 0;
+#footer {
+    text-align:center;
+    margin:5em;  
 }
