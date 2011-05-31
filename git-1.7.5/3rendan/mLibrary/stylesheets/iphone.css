@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+/* color pallette
+	black -> #000000;
+	dark grey -> #555555;
+	light grey -> #E0E0E0;
+	yellow -> #ffcc00;
+	blue (visited) -> #6699ff;
+*/
+
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #555555;
+    color: #000000;
+}
+a:hover {
+	background-color: #000000;
+	text-decoration: none; 
+	color:#ffcc00;
+}
+body[orient="landscape"] > #content {
+    min-height: 268px;
+}
+body > .top-nav{
+	background-color: #000;
+	padding:5px;
+}
+
+body > .top-nav > a{
+	text-decoration: none;
+	color: #fff;
+	margin-left:20px;
+}
+
+body > .toolbar {
+    border-bottom: medium solid #000000;
+    height: 73px;
+    background: url("images/logo") no-repeat 1%;
+	margin-top:5px;
+}
+
+body > .small {  background: url("images/logo") no-repeat 1%; border-top:medium solid #000; border-bottom:medium solid #000;  height: 53px;}
+body > .small > a {display: block; height: 50px; width: 47px; position: absolute; top: 5px; left: 2px;text-decoration: none; border: none;}
+body > .small > a.back {
+	background: url(images/flame.gif") no-repeat right center;
+	width:100%;
+}
+
+.toolbar > h1 {
+    position: absolute;
+    left: 50%;
+    margin: 10px 0 0 -93px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+	vertical-align: middle;
+    white-space: nowrap;
+    color: #000;
+}
+
+.small h1 {margin: 12px 0 0 -110px; padding:0; }
+
+
+body[orient="landscape"] > .toolbar > h1 {
+    margin-left: -125px;
+    width: 250px;
+}
+body > #simple{
+	background: #ffffff;
+	margin-left: 5px;
+	padding-left:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #000000
+}
+body > #faq {
+	background: #ffffff;
+	margin-left: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #000000	
+}
+body > #faq > ul{
+    position: relative;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 14px 0 14px 45px;
+    font-size: 1em
+    font-weight: bold;
+    list-style: none;
+}
+
+body > #content > #nav_box > ol{
+	padding-left:0;
+    background: #ffffff;
+}
+
+body > #content > #nav > ol > li {
+    position: relative;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 14px 0 14px 45px;
+    font-size: 1em;
+    font-weight: bold;
+    list-style: none;
+}
+
+body > #content > #nav > ol > li.top {
+    border-top: 1px solid #E0E0E0;
+}
+
+body > #content > #nav > ol > li > a {
+    display: block;
+    margin: -8px 0 -8px 0px;
+    padding: 8px 32px 8px 0px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#content {margin:10px; font-weight:600;}
+ol, ul{margin:0; padding:0; list-style: none;}
+ol.indent{margin:4px 0px 8px 15px; list-style:disc;}
+li{ margin:  4px 0;}
+div {padding:0px; margin:0px;}
+a{color:#0033cc;}
+a:visited{color:#6699ff;}
+h2{color:#e55302; font-size:1.5em; margin: 8px 0; padding:10px 0px 10px 0px; }
+h3{font-size: inherit; margin:14px 0px 7px; font-weight:900; color:#e55302;}
+a img { border: none;}
+label{display:block;  margin-top:10px; font-weight:900;}
+hr{ border-bottom: 1px solid #ddd; margin:0px;}
+.requires {color:red;}
+#footer{  
+          text-align: center;
+          text-transform: uppercase;
+          border-top:medium solid #000; 
+	      padding-top:15px;  
+	      padding-bottom:15px; 
+}
+#footer a{color:#000;}
+.call  {
+   font-size:.75em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   color:#ffffff;
+   background-color:#ffcc00;
+   border-style:outset;
+   border-color:#555555;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 5px;
+   padding-left: 5px;  
+   margin-left: 10px;
+   margin-right: 10px;
+   vertical-align: middle;
+}
+.access{color:#ee9944;}
+p{margin:0; padding:0;}
+#nav a, #nav a:hover{text-decoration: none; color:#000;}
+.break{display:inline;}
+
+
+#nav_box{
+	border: medium solid #000000; 
+	margin-top:25px;
+	padding:0 5px;
+	background: #ffffff
+	}
+	
+body > #content > #nav > ol{
+	padding-left:0%;
+	background: #ffffff
+}	
+	
+body > #content > #nav_box > ol{
+	padding-left:0%;
+}
+
+body > #content > #nav_box > ol > li {
+    position: relative;
+    margin: 0;
+    padding: 14px 0 14px 45px;
+    font-size: .75em
+    font-weight: bold;
+    list-style: none;
+    background: #ffffff
+}
+
+#nav_box li.bottom {border-bottom:thin solid #000000;}
+
+body > #content > #nav_box > ol > li > a {
+    display: block;
+    margin: -8px 0 -8px -20px;
+    padding: 8px 32px 8px 20px;
+    text-decoration: none;
+    color: inherit;
+    background: url(images/flame.gif") no-repeat right center;
+}
+
+.button 
+{
+	display:block;
+	padding:0 5px;
+	height: 29px;            /* control is 29 pixels high */
+	line-height: 29px;
+	font-weight:bold;
+	font-size: .75em       /* Text displayed is 12 pixels */
+	color: #000000;
+	background-color:black;  
+	text-align:center;
+	border: solid gray 1px;           /* Creates a rectangle around a text */
+      /* Rounds each corner of the created rectangle */
+	width: 100%;
+	 margin:15px 0;        
+}
+.fields{
+	height: 19px; 
+	line-height: 19px;
+	width: 80%;
+}
+
+.area{
+	width: 80%;
+}
+
+.check{
+   margin:8px 5px;
+}
+
+
+fieldset{
+	width: device-width;
+	background-color: white;       /* Each list has a white background fill */
+	border-width: 1px;		       /* Draw a rectangle around each list */
+	border-style:solid ;
+	border-color:rgb(217,217,217);
+		 /* Round each corner of the created rectangle */
+	margin: 8px 0;
+	padding:5px;
+}
+
+fieldset li{
+	border-bottom: 1px solid #000000;
+    padding: 10px 0 10px 5px;
+	}
+	
+.hours { background: ("images/clocki.gif") no-repeat left center;}
+.faq { background: ("images/questioni.gif") no-repeat left center;}
+.ask { background: ("images/aski.gif") no-repeat left center;}
+.maps { background: ("images/mapi.gif") no-repeat left center;}
+.catalog { background: ("images/renewal.gif") no-repeat left center;}
+.renewals { background: ("images/renewali.gif") no-repeat left center;}
+.directions { background: ("images/directionsi.gif") no-repeat left center;}
+.bookstore { background: ("images/clock.gif") no-repeat left center;}
+.helin { background: ("images/renewali.gif") no-repeat left center;}
+.card { background: ("images/cardi.gif") no-repeat left center;}
+.community { background: ("images/communityi.gif") no-repeat left center;}
+.access { background: ("images/communityi.gif") no-repeat left center;}
+.alumni { background: ("images/communityi.gif") no-repeat left center;}
+.ebsco { background: ("images/ebscoi.gif") no-repeat left center;}
+.writing { background: ("images/writingi.gif") no-repeat left center;}
+.oas { background: ("images/oasi.gif") no-repeat left center;}
+.txt { background: ("images/texti.gif") no-repeat left center;}
+.archives { background: ("images/archivei.gif") no-repeat left center;}
+

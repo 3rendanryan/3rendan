@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+/* color pallette
+	black -> #000000;
+	white -> #FFFAF0;
+	links -> #555555;
+	grey -> #808080;
+	background -> #FFFAF0;
+	yellow -> #FBEC5D;
+	
+*/
+
+body {
+        font-family: Franklin Gothic medium, sans-serif;
+        background: #808080;
+	width:100%;
+	}
+
+a, a:link {
+	text-decoration: none;
+	color: #555555;
+	}
+/* TEXT HOVER: BLACK BOX / YELLOW TEXT */
+a:hover {
+	background-color:#FBEC5D; 
+	text-decoration: none; 
+	color:#000000;
+	}
+
+
+
+/* PROPERTIES FOR THE TOP HEADER BAR */
+h1 {
+	padding:10px 0 10px 0;
+	margin: .5em;
+	font-size: 1em;
+	padding: .5em 1.5em .82em 1.5em;
+	color: #FFFAF0;
+	text-align: right;
+	background: #808080;
+	}
+h1 >img{ float:left; }
+
+/* SIMPLE DIV CLASS FOR ALL CONTENT AREAS */
+#content{
+	background: #FFFAF0;
+	border-style: solid;
+	border-color:#000000;
+	border-width: .3em;
+	font-size: 1em;
+	margin:.65em .45em 1em .45em;
+	padding: .7em;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	}
+/* IN-TEXT HEADINGS*/
+#content > #nav > h2{
+	text-transform: capitalize;
+	}
+/* SETUP FOR ALL CONTENT LISTS */
+/* #nav > ol is larger margins for images */
+#content > #nav > ol > li{
+	margin:0em 1.3em 0em .3em;
+	position:relative;
+	padding:.85em 0 .85em 45px;
+	border-bottom:1px solid #808080;
+	font-size:1.2em;
+	font-weight:bold;
+	list-style:decimal;	
+	}
+/* #nav > ul is for smaller margins, strict lists, no images */
+#content > #nav > ul > li{
+	margin:0 1.3em 0 .3em;
+	position: relative;
+	padding:.85em 0 .85em .45px;
+	border-bottom:1px solid #808080;
+	font-size:1.2em;
+	font-weight:bold;
+	list-style:none;	
+	}
+
+/* GETTING BOTTOM BUTTONS CENTERED */
+.footer{  
+        text-align: center;
+        text-transform: uppercase; 
+	padding-bottom:10px;  
+}
+/* class for outline settings in javascript */
+.navUL {
+	margin:0 1.3em 0 .3em;
+	position: relative;
+	padding:.85em 0 .85em 1em;
+	border-bottom:1px solid #808080;
+	font-size:1.2em;
+	font-weight:bold;	
+	}
+.navOL {
+	margin:0em 1.3em 0em .3em;
+	position:relative;
+	padding:.85em 0 .85em 45px;/* proper padding for images */
+	border-bottom:1px solid #808080;
+	font-size:1.2em;
+	font-weight:bold;
+	list-style:decimal;	
+}
+/* BUTTONS */
+.linkButton {
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#555555;
+	background-color:#FFFAF0;
+	margin: 0 0 1.3em 1.3em; 
+	border-style:outset;
+	border-color:#808080;
+	text-align: center;
+	padding: .3em;
+	vertical-align: middle;
+	border-radius: 13px;
+	-moz-border-radius: 13px;	
+}
+
+
+.call{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#555555;
+	background-color:#FBEC5D;
+	margin: .7em;
+	border-style:outset;
+	border-color:#808080;
+	text-align: center;
+	padding: .25em;
+	vertical-align: middle;
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+}
+.fFooter{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#555555;
+	background-color:#FBEC5D;
+	border-style:outset;
+	border-color:#808080;
+	text-align: center;
+	padding: .3em;  
+	vertical-align: middle;
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+	}
+.footer_linkButton{
+	font-size: 1.15em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#555555;
+	background-color:#FFFAF0;
+	border-style:outset;
+	border-color:#808080;
+	text-align: center;
+	padding: .3em;  
+	vertical-align: middle;
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+	}
+
+/* CAPTCHA ON THE EMAIL PAGE */
+.captcha  {
+	padding: .25em;
+	width: 1.2em;
+	}
+
+/* ALL IMAGES */
+.hours { background: url(images/hours.png) no-repeat left center;}
+.faq { background: url(images/faq.png) no-repeat left center;}
+.ask { background: url(images/faq.png) no-repeat left center;}
+.maps { background: url(images/map.png) no-repeat left center;}
+.renewals { background: url(images/renewal.png) no-repeat left center;}
+.catalog { background: url(images/renewal.png) no-repeat left center;}
+.directions { background: url(images/directions.png) no-repeat left center;}
+.bookstore { background: url(images/renewal.png) no-repeat left center;}
+.helin { background: url(images/helin.png) no-repeat left center;}
+.card { background: url(images/card.png) no-repeat left center;}
+.community { background: url(images/community.png) no-repeat left center;}
+.access { background: url(images/community.png) no-repeat left center;}
+.alumni { background: url(images/community.png) no-repeat left center;}
+.ebsco { background: url(images/ebsco.png) no-repeat left center;}
+.writing { background: url(images/writing.png) no-repeat left center;}
+.oas { background: url(images/oas.png) no-repeat left center;}
+.txt { background: url(images/text.png) no-repeat left center;}
+.archives { background: url(images/archive.png) no-repeat left center;}
+
