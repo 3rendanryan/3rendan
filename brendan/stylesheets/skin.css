@@ -9,7 +9,7 @@
     -webkit-border-radius: 10px;
    border-radius: 10px;
     background: #F0F6F9;
-    border: 1px solid #037EF8;
+    border: 1px solid;
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl {
