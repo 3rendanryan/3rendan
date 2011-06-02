@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+/* color pallette
+	black -> #000000;
+	dark grey -> #555555;
+	light grey -> #E0E0E0;
+	yellow -> #ffcc00;
+	blue (visited) -> #6699ff;
+*/
+
+body {
+	background: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	width:100%;
+	margin: 0 0 4em 0;
+	padding:0;
+}
+a, a:link {
+	text-decoration: none;
+	color: #555555;
+}
+a:hover {
+	background-color: #000000;
+	text-decoration: none; 
+	color:#ffcc00;
+}
+h1      {
+		margin:0;
+        font-size: 1.15em;
+        padding-top: 10px;
+        padding-left: 6px;
+		padding-bottom: 10px;
+		color: #ffffff;
+        text-align: center;
+		vertical-align: middle;
+        background: #555555;
+}
+img{
+	float:left;
+}
+
+body > #simple{
+	background: #ffffff;
+	border-color:#ffcc00;
+	font-size: .85em;
+	margin-left: 5px;
+	margin-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #000000
+}
+body > #simple > a{
+	color: #555555;
+	font-size: .85em;
+}
+body > #simple > img{
+	float: left;
+	padding: 10px;
+}
+body > #simple > #nav > ul > li{ 
+	position: relative;
+    padding: 14px 0 14px 45px; 
+	border-bottom: 1px solid #E0E0E0;
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none;
+}
+body > #simple > #nav > ul > a {
+	padding-top:4px; 
+	padding-right:16px; 
+	padding-bottom:4px; 
+	text-decoration: none;
+	color: #000;
+	font-size: 1em;
+}
+body > #simple > #nav > ul > li {
+	padding-bottom: 14px;
+	font-size: 1em;
+	font-weight: bold;
+
+body > #faq{
+	background: #ffffff;
+	border-color:#ffcc00;	
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 1em;
+	color: #000000;	
+}
+body > #faq {
+	background: #ffffff;
+	border-color:#ffcc00;
+	font-size: .85em;
+	margin-left: 5px;
+	margin-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #000000
+}
+body > #faq > #nav > ul > li{ 
+	position: relative;
+    padding: 14px 0 14px 45px; 
+	border-bottom: 1px solid #E0E0E0;
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none;
+}
+body > #faq > #nav > ul > a {
+	padding-top:4px; 
+	padding-right:16px; 
+	padding-bottom:4px; 
+	text-decoration: none;
+	color: #000;
+	font-size: 1em;
+}
+body > #faq > #nav > ul > li {
+	padding-bottom: 14px;
+	font-size: 1em;
+	font-weight: bold;	
+}	
+
+.break{display:block;}
+
+#nav_box{
+	border-top: medium solid #000000; 
+	border-bottom: medium solid #000000; 
+	margin-top:15px; 
+	padding-right:2px; 
+	padding-left:2px;
+	}
+	
+#nav_box li.bottom {border-bottom:thin solid #000000;
+}
+
+
+h2 {
+	font-size: 1em
+	margin:0;
+	padding: 5px 6px;
+	color: #000000;
+	background: #000000;
+	border-top: 3px solid #ffcc00;
+	font-weight: normal;
+	text-align: center;
+}
+
+.footer {
+        text-align: center;
+	    text-transform: uppercase;
+        border-top:medium solid #000; 
+	    padding-top:15px;  
+	    padding-bottom:15px;
+        background: #555555;
+		font-size: 1em 
+}
+h3 {
+	font-size: 1.5em;
+	color: #000000;
+	background: #ffffff;
+	text-align: center;
+}
+
+h4 {
+    font-size: 2em;
+	padding: 6px;
+}
+h5 {
+	margin-left: 25px;
+	font-size: 1.25em;
+	color: #000000;
+	background: #ffffff
+}
+
+p {
+	padding: 0 6px;
+	font-size: 1em
+	margin: 0 0 14px;
+	line-height: 1.4em;
+}
+
+img {
+	display: block;
+	margin: 6px;
+}
+
+
+a img {
+	border: 0;
+}
+
+h1 img {
+	margin: 5px;
+}
+ul.main, ul.main li {
+	margin: 10px;
+	padding: 0;
+	list-style: decimal;
+	list-style-type: none;
+}
+
+ul.main {
+	border-top: 2px solid #555555;
+}
+
+ul.main a {
+	display: block;
+	margin: 0;
+	padding: 10px 32px 10px 6px;
+	border-bottom: 2px solid #555555;
+}
+
+
+ul.main a span {
+	display: block;
+	font-size: 1em
+	color: #999;
+}
+ul.hour {
+	border-top: 2px solid #555555;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.innerheader h1 {
+	margin: 0;
+	padding: 0;
+	background-color: #555555;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1em
+}
+
+
+body > #simple{
+	border-style:outset;
+    border-color:#ffcc00; 
+	background: #ffffff;
+	color: #000000;
+}
+body > #hour > ul{
+	border-style:outset;
+    border-color:#ffcc00; 
+	background: #ffffff;
+	color: #000000;
+}
+body > #faq{
+	border-style:outset;
+    border-color:#ffcc00; 
+	background: #ffffff;
+	color: #000000;
+}
+.directions_link   {
+	margin: 0;
+	font-size: 1.5em;
+	display: block;
+	padding: 10px 32px 10px 6px;
+	background: ("images/directions.gif") no-repeat left center;
+	text-indent:50px;
+}
+
+.call  {
+   font-size: 1em
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   color:#ffffff;
+   background-color:#ffcc00;
+   border-style:outset;
+   border-color:#555555;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 5px;
+   padding-left: 5px;  
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom:3px;
+   margin-top: 3px;
+   vertical-align: middle;
+   moz-border-radius: 5px;
+   webkit-border-radius: 5px;
+}
+.captcha  {
+	padding: 2px;
+	width: 10px;
+}
+.email_form  {
+	padding: 2px;
+}
+
+.hours { background: ("clock.gif") no-repeat left center;}
+.faq { background: ("images/faq.gif") no-repeat left center;}
+.ask { background: ("images/faq.gif") no-repeat left center;}
+.maps { background: ("images/map.gif") no-repeat left center;}
+.renewals { background: ("images/renewal.gif") no-repeat left center;}
+.catalog { background: ("images/renewal.gif") no-repeat left center;}
+.directions { background: ("images/directions.gif") no-repeat left center;}
+.bookstore { background: ("images/renewal.gif") no-repeat left center;}
+.helin { background: ("images/helin.gif") no-repeat left center;}
+.card { background: ("images/card.gif") no-repeat left center;}
+.community { background: ("images/community.gif") no-repeat left center;}
+.access { background: ("images/community.gif") no-repeat left center;}
+.alumni { background: ("images/community.gif") no-repeat left center;}
+.ebsco { background: ("images/ebsco.gif") no-repeat left center;}
+.writing { background: ("writing.gif") no-repeat left center;}
+.oas { background: ("images/oas.gif") no-repeat left center;}
+.txt { background: ("images/text.gif") no-repeat left center;}
+.archives { background: ("images/archive.gif") no-repeat left center;}
+
