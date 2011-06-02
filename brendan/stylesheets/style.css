@@ -3,7 +3,7 @@
 /* color pallette
     black -> #000000;
 	white -> #ffffff;
-	links, red -> #EA1527;
+	links, blue -> #037EF8;
 	
 */
 
@@ -63,8 +63,17 @@ a {
 
 #content {
     width:82%;
+    color: #037EF8;
     float:left;
     height:400px; /* CAROUSEL HEIGHT + PADDING */
+}
+
+#message {
+    padding:2em;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform:capitalize;
+    color:#037EF8;
 }
 
 #footer {
