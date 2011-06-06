@@ -2,7 +2,7 @@
 /* CSS Document */
 /* color pallette
     black -> #000000;
-	white -> #ffffff;
+    white -> #ffffff;
 	links, blue -> #037EF8;
 	
 */
@@ -54,17 +54,16 @@ a {
 
 /* MIDDLE SECTION/BODY */
 #carousel {
-    padding:40px 0 40px 30px;
-    width:15%;
+    padding:40px 30px 40px 30px;
     float:left;
     height:320px;
     border-bottom:.3em solid #000;
 }
 
 #content {
-    width:82%;
     color: #037EF8;
-    float:left;
+    float:none;
+    width: 82%;
     height:400px; /* CAROUSEL HEIGHT + PADDING */
 }
 
