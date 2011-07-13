@@ -28,7 +28,12 @@ jQuery(document).ready(function() {
 </script>
 </head>
 <body>
+<div id="container">
+
+<div id="header">
 <h1>Brendan Ryan</h1>
+</div>
+  
   <div id="row1">
       <p>Library Commons Assistant 2</p>
       <p>Phone: 401.865.2582</p>
@@ -41,11 +46,15 @@ jQuery(document).ready(function() {
       <p><a href="mailto:bryan1@providence.edu">Email</a></p>
   </div>
 
-  <div id="carousel">
+<iframe id="content" src="message.html">
+<p>Please click on the scrolling<br/> links to the left to<br/> view content.</p>
+</iframe>
+
+<div id="navigation">
     <ul id="mycarousel" class="jcarousel jcarousel-skin-tango">
       <li><a href="BrendanRyanCV.pdf" rel=nofollow target="content">
       <img src="stylesheets/images/cv.png" width="75" height="75" alt="" /></a></li>
-      <li><a href="http://m.providence.edu/iui" rel=nofollow target="content">
+      <li><a href="http://m.providence.edu/library" rel=nofollow target="content">
       <img src="stylesheets/images/mIUI.png" width="75" height="75" alt="" /></a></li>
       <li><a href="abstract.pdf" rel=nofollow target="content">
       <img src="stylesheets/images/abstract1.png" width="75" height="75" alt="" /></a></li>
@@ -56,17 +65,11 @@ jQuery(document).ready(function() {
       <li><a href="http://apacitationtool.wordpress.com/" rel=nofollow target="content">
       <img src="stylesheets/images/apa.png" width="75" height="75" alt="" /></a></li>
     </ul>
-  </div>
-  <iframe id="content" name="content" src="message.html">
-  </iframe>
-  
-  
-  <div id="footer">
+</div>
+<div id="footer">
   This personal web page is not an official University of Rhode Island Web page.
-  <a href="http://www.uri.edu/home/about/disclaimer-4.html">See disclaimer</a></div>
-  </div>
+  <a href="http://www.uri.edu/home/about/disclaimer-4.html">See disclaimer</a>
+</div>
+</div><!--container end-->
 </body>
 </html>
-
-
-

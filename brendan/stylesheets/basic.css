@@ -1,14 +1,25 @@
+/* colors
+light blue: #C2DDFC;
+maroon: #6F272D;
+*/
+
 body {
-    background: #bfadad;
+    background: #C2DDFC;
+    font-family: Franklin Gothic medium, sans-serif;
 }
+a {
+    color: #6F272D;
+    text-decoration:none;
+}
+
 #container {
 	background: #FFFFFF repeat-y;
 	width: 960px;
-    height: 960px;
+    height: 600px;
     margin: 0 auto;
 }
 #header {
-	height: 200px;
+	height: 30px;
 	background: #FFFFFF no-repeat;
     text-align:center;
 }
@@ -17,14 +28,49 @@ body {
 	height: 68px;
     clear: both;
     text-align: center;
+    border-top: .3em solid #6F272D;
 }
 #content {
 	width: 820px;
 	float: left;
     background: #28CAB7 no-repeat;
     height: 335px;
+    clear: both;
 }
 #navigation {
 	width: 100px;
 	float: left;
+}
+/* rows for 3 column header */
+#row1 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #6F272D;
+}
+#row2 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #6F272D;
+}
+#row3 {
+    width:33%;
+    height:100px;
+    vertical-align: middle;
+    text-align:center;
+    float:left;
+    border-bottom: .3em solid #6F272D;
+}
+#message {
+    padding:2em;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform:capitalize;
+    color:#6F272D;
+    background: #C2DDFC;
 }
