@@ -1,0 +1,30 @@
+body {
+    background: #bfadad;
+}
+#container {
+	background: #FFFFFF repeat-y;
+	width: 960px;
+    height: 960px;
+    margin: 0 auto;
+}
+#header {
+	height: 200px;
+	background: #FFFFFF no-repeat;
+    text-align:center;
+}
+#footer {
+	background: #FFFFFF no-repeat;
+	height: 68px;
+    clear: both;
+    text-align: center;
+}
+#content {
+	width: 820px;
+	float: left;
+    background: #28CAB7 no-repeat;
+    height: 335px;
+}
+#navigation {
+	width: 100px;
+	float: left;
+}
