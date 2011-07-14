@@ -1,6 +1,8 @@
 /* colors
-light blue: #C2DDFC;
-maroon: #6F272D;
+blue container: #C2DDFC;
+blue text: #091459;
+cornflower blue bars/links: #889BB0;
+jcarousel background: #FFFFFF;
 */
 
 body {
@@ -8,27 +10,28 @@ body {
     font-family: Franklin Gothic medium, sans-serif;
 }
 a {
-    color: #6F272D;
+    color: #889BB0;
     text-decoration:none;
 }
 
 #container {
-    background: #FFFFFF repeat-y;
+    background: #F0F7FE repeat-y;
+    color: #091459;
 	width: 960px;
     height: 600px;
     margin: 0 auto;
 }
 #header {
+    background: #F0F7FE repeat-y;
 	height: 30px;
-	background: #FFFFFF no-repeat;
     text-align:center;
 }
 #footer {
-	background: #FFFFFF no-repeat;
+    background: #F0F7FE repeat-y;
 	height: 68px;
     clear: both;
     text-align: center;
-    border-top: .3em solid #6F272D;
+    border-top: .3em solid #889BB0;
 }
 #content {
 	width: 820px;
@@ -48,7 +51,7 @@ a {
     vertical-align: middle;
     text-align:center;
     float:left;
-    border-bottom: .3em solid #6F272D;
+    border-bottom: .3em solid #889BB0;
 }
 #row2 {
     width:33%;
@@ -56,7 +59,7 @@ a {
     vertical-align: middle;
     text-align:center;
     float:left;
-    border-bottom: .3em solid #6F272D;
+    border-bottom: .3em solid #889BB0;
 }
 #row3 {
     width:33%;
@@ -64,13 +67,13 @@ a {
     vertical-align: middle;
     text-align:center;
     float:left;
-    border-bottom: .3em solid #6F272D;
+    border-bottom: .3em solid #889BB0;
 }
 #message {
     padding:2em;
     text-align: center;
     font-size: 2.5em;
     text-transform:capitalize;
-    color:#6F272D;
+    color:#091459;
     background: #C2DDFC;
 }

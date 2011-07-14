@@ -1,14 +1,15 @@
-/* color pallette
-    black -> #000000;
-    white -> #ffffff;
-	links, blue -> #037EF8;	
+/* colors
+blue container: #C2DDFC;
+blue text: #091459;
+cornflower blue bars/links: #889BB0;
+jcarousel background: #FFFFFF;
 */
 
 .jcarousel-skin-tango .jcarousel-container {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
    border-radius: 10px;
-    background: #F0F6F9;
+    background: #FFFFFF;
     border: 1px solid;
 }
 
